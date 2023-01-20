@@ -1,6 +1,7 @@
 package tf.cyber
 
 import io.kvision.*
+import io.kvision.html.div
 import io.kvision.html.p
 import io.kvision.html.span
 import io.kvision.panel.*
@@ -34,8 +35,8 @@ class App : Application() {
 
                     // The following block works flawelessly on the other hand.
                     // Previous Entries 2 and 3 are removed.
-                    /*p {
-                        p {
+                    /*div {
+                        div {
                             p {
                                 span(it)
                             }
